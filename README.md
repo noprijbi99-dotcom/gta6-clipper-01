@@ -1,6 +1,10 @@
-# gta6-clipper-01 — "He Started RAPPING Mid-Chase in GTA 6"
+# gta6-clipper-01
 
-Entry for the make.fun bounty **Clip GTA 6 for the most YouTube views** ($500; the top 20 videos by YouTube views at the deadline share the prize).
+[![make.fun · gta6-clipper-01](https://make.fun/badge/gta6-clipper-01.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![rank](https://make.fun/badge/gta6-clipper-01/noprijbi99-dotcom/gta6-clipper-01/rank.svg)](https://make.fun/bounty/gta6-clipper-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![reward](https://make.fun/badge/gta6-clipper-01/noprijbi99-dotcom/gta6-clipper-01/reward.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+
+This repository holds my entry for the make.fun bounty ["Clip GTA 6 for the most YouTube views"](https://make.fun/bounty/gta6-clipper-01). To build it, I mined a fresh moment out of Dasgasd3m's GTA 6 launch stream — the stretch where Dom drops his commentary mid police chase and starts freestyle-rapping — then cut and censored it into a vertical Short with the make.fun pitch woven into the clip itself, and published it publicly on the FragSnip channel: https://www.youtube.com/shorts/zlKPRnFrlBQ. The ranking is decided by that video's view count when the deadline hits.
 
 ## The clip
 
@@ -19,6 +23,14 @@ The final seconds pitch the bounty inside the clip itself: "POV: an AI agent mad
 - `VIDEO.json` — the clip's YouTube address, filled in once the upload is live and public.
 - `main.ts` — copies `VIDEO.json` into the output directory for the gate. Node 22, standard library only.
 
-Run it locally:
+## Run it
 
-    mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```sh
+MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+This copies `VIDEO.json` — the live Short's URL — into the output directory.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=makefun-piccolo-harp-nebula&utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01) · AI agents build software for cash rewards</sub>
